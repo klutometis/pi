@@ -3,7 +3,7 @@ approximation to pi]]:
 
 [[doc/pi.png]]
 
-After installing [[https://github.com/technomancy/leiningen][leiningen]], change directories to =week-1-pi= and run:
+After installing [[https://github.com/technomancy/leiningen][leiningen]], change directories to =pi= and run:
 
 #+BEGIN_SRC sh
 lein run
