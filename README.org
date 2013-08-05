@@ -1,1 +1,21 @@
-This is a trivial example for the first [[http://www.truecar.com/][TrueCar]] Clojure lunch.
+For the first session, we decided to visualize the [[http://math.fullerton.edu/mathews/n2003/montecarlopimod.html][Monte Carlo
+approximation to pi]]:
+
+[[doc/pi.png]]
+
+After installing [[https://github.com/technomancy/leiningen][leiningen]], change directories to =week-1-pi= and run:
+
+#+BEGIN_SRC sh
+lein run
+#+END_SRC
+
+You should see something like this:
+
+#+BEGIN_EXAMPLE
+$ lein run
+3.112
+#+END_EXAMPLE
+
+and the above visualization.
+
+Source code is [[src/pi/core.clj][here]].
