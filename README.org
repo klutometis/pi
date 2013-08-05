@@ -1,0 +1,1 @@
+This is a trivial example for the first [[http://www.truecar.com/][TrueCar]] Clojure lunch.
