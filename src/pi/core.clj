@@ -25,7 +25,8 @@
                       :group-by (sel data :cols :inside?))
         (add-function (fn [x] (sqrt (- 1 (square x)))) 0 1))))
 
-(time (binding [data []]
-        (let [pi (pi 10000)]
-          (println pi (float pi))
-          (view (plot-data data)))))
+(defn -main [& args]
+  (time (binding [data []]
+          (let [pi (pi 10000)]
+            (println pi (float pi))
+            (view (plot-data data))))))
